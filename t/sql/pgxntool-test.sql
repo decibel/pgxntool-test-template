@@ -1,4 +1,4 @@
-CREATE FUNCTION pgxntool-test(
+CREATE FUNCTION "pgxntool-test"(
   a int
   , b int
 ) RETURNS int LANGUAGE sql IMMUTABLE AS $body$
