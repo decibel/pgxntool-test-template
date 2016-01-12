@@ -3,7 +3,7 @@
 SELECT plan(1);
 
 SELECT is(
-  pgxntool-test(1,2)
+  "pgxntool-test"(1,2)
   , 3
 );
 
